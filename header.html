@@ -19,11 +19,50 @@
         margin-top: 10px;
         margin-left: 10px;
     }
+
+    .button {
+	display: inline-block;
+	border-radius: 3px;
+	padding: 7px 12px;
+	border: 1px solid #D5D5D5;
+	background-image: linear-gradient(#EEE, #DDD);
+	font: 700 13px/18px Helvetica, arial;
+}
+.button--state-success {
+	color: #FFF;
+	background: #569E3D linear-gradient(#79D858, #569E3D) repeat-x;
+	border-color: #4A993E;
+}
+.button--state-danger {
+	color: #900;
+}
+    
 </style>
 <body>
     <header>
         <img src="logo-platzi-video-BW2.png">
     </header>
-    <div style="width:20px ;outline-style:solid;outline-color: blue;outline-width: 5px;"></div>
+
+    <button class="button">
+        Normal button
+    </button>
+    <button class="button button--state-success">
+        Success button
+    </button>
+    <button class="button button--state-danger">
+        Danger button
+    </button>
+<!--transition-->
+<!--https://www.w3schools.com/css/css3_transitions.asp-->
+<!--https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions-->
+<!--https://css-tricks.com/almanac/properties/t/transition/-->
+<!--animation-->
+<!--https://www.w3schools.com/css/css3_animations.asp-->
+<!--https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations-->
+<!--https://css-tricks.com/almanac/properties/a/animation/-->
+<!--position,static,,relative,absolute,sticky-->
+<!--https://developer.mozilla.org/es/docs/Web/CSS/position-->
+<!--https://www.w3schools.com/css/css_positioning.asp-->
+
 </body>
 </html>
