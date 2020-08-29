@@ -16,9 +16,9 @@
         background-color: #3a0ca3;
         width:100%;
         height:80px;
-        display:flex;
-        justify-content: space-between;
-        align-items: center;
+        display:flex;                    /*Esto define un contenedor flexible; en línea o en bloque según el valor dado. Permite un contexto flexible para todos sus hijos directos.*/
+        justify-content: space-between;  /*justifica el contenido del display:flex*/
+        align-items: center;             /*(alinear contenido)los elementos están centrados en el eje transversal*/
     }
     .header__img{
         width:200px;
@@ -32,7 +32,7 @@
         display: none;
         list-style: none;      /*Para quitar virgulillas de las listas(.)*/
         padding: 0px;
-        position: absolute;
+        position: absolute;    /*el elemento no se mueve al utilizar un hover*/
         width: 100px;
         text-align: right;
         margin: 0px 0px 0px -14px;
